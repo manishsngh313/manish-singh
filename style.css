@@ -1,0 +1,53 @@
+ body {
+    height:50%;
+    width: 50%;
+    background-color: lightgrey;
+}
+.calculator{
+    background-color: grey;
+    height:500px;
+    width: 400px;
+    position: relative;
+    top:100px;
+    left:400px;
+
+}
+#calculator-header{
+    width: 95%;
+    height:25px;
+    margin: 5px;
+    border: 2px white solid;
+    border-radius: 5%;
+    color: white;
+    text-align:center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: black;
+}
+#display{
+    background-color: lightgrey;
+    height: 75px;
+    width: 95%;
+    margin: 5px;
+    border: 2px white solid;
+    border-radius: 2%;
+    font-size: 2rem;
+}
+#input{
+    display: flex;
+    flex-wrap: wrap;
+}
+#input > p{
+    height :50px;
+    width: 75px;
+    margin: 10px;
+    background-color: lightpink;
+    border-radius: 20%;
+    text-align: center;
+    font-size:2.2rem;
+
+    
+}
+#input > p:hover{
+    cursor: grab;
+}
